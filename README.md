@@ -1,5 +1,9 @@
-# Agenda Tugas Siswa — TP6 Mobile Programming
+# TP6 Mini Project — Agenda Tugas Siswa
 
+**Nama siswa:** Wienju
+
+## Deskripsi masalah
+Siswa sering lupa tugas yang belum selesai karena pencatatan tidak teratur. Program console Kotlin ini membantu mencatat, mencari, mengubah status, dan menghapus tugas, serta menyimpannya ke berkas agar tidak hilang saat program ditutup.
 Program Kotlin berbasis console untuk mencatat tugas siswa.
 
 ## Fitur
