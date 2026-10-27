@@ -1,5 +1,7 @@
 import java.io.File
 fun main() {
+    tampilkanNamaProyek()
+
     val file = File("agenda_tugas_tp6.txt")
     val daftar = Penyimpanan.muat(file)
     val service = TugasService(daftar)
