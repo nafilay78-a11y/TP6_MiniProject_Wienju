@@ -16,7 +16,7 @@ class TugasService(private val daftar: MutableList<Tugas>) {
             return
         }
         for ((indeks, tugas) in daftar.withIndex()) {
-            val status = if (tugas.selesai) "Selesai" else "Belum"
+            val status = if (tugas.selesai) "Selesai" else "Belum selesai"
             println("${indeks + 1}. ${tugas.id} | ${tugas.judul} | $status")
         }
     }
