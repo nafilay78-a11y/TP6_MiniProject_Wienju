@@ -14,6 +14,7 @@ fun main() {
         println("4. Ubah status")
         println("5. Simpan data")
         println("6. Hapus data")
+        println("7. Statistik tugas")
         println("0. Keluar")
         print("Pilihan: ")
         pilihan = readln().toIntOrNull() ?: -1
