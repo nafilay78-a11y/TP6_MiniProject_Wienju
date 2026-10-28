@@ -40,6 +40,10 @@ fun main() {
                 Penyimpanan.simpan(file, daftar)
                 println("Data disimpan")
             }
+            6 -> {
+                print("ID tugas yang dihapus: ")
+                println(if (service.hapus(readln())) "Tugas dihapus" else "Tugas tidak ditemukan")
+            }
             0 -> {
                 Penyimpanan.simpan(file, daftar)
                 println("Program selesai")
