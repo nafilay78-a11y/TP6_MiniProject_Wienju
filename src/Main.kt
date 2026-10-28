@@ -45,6 +45,10 @@ fun main() {
                 print("ID tugas yang dihapus: ")
                 println(if (service.hapus(readln())) "Tugas dihapus" else "Tugas tidak ditemukan")
             }
+            7 -> {
+                val (selesai, belum) = service.statistik()
+                println("Selesai: $selesai | Belum selesai: $belum | Total: ${selesai + belum}")
+            }
             0 -> {
                 Penyimpanan.simpan(file, daftar)
                 println("Program selesai")
