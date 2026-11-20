@@ -1,7 +1,7 @@
 # TP6 Mini Project — Agenda Tugas Siswa
 
 **Nama siswa:** Wienju
-**Kelas:** XI RPL
+**Kelas:** XI TIP 1
 
 ## Latar Belakang dan Masalah
 Siswa sering lupa tugas yang belum selesai karena pencatatan tidak teratur. Program ini membantu mencatat dan memantau tugas sekolah beserta statusnya.
